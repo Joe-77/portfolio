@@ -6,6 +6,7 @@ import linkApp from "../assets/link-app.png";
 import weather from "../assets/weater.png";
 import apple from '../assets/apple.png'
 import animal from '../assets/animal.png'
+import loop from "../assets/loop.png"
 
 export const project = [
   {
@@ -67,5 +68,12 @@ export const project = [
     projectNum: 8,
     gitHub: "https://github.com/Joe-77/Animal",
     live: "https://joe-77.github.io/Animal/",
+  },
+  {
+    projectName: "loopstudios",
+    projectImg: animal,
+    projectNum: 9,
+    gitHub: "https://github.com/Joe-77/loopstudios",
+    live: "https://joe-77.github.io/loopstudios/#",
   },
 ];
