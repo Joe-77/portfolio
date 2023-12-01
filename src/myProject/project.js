@@ -71,7 +71,7 @@ export const project = [
   },
   {
     projectName: "loopstudios",
-    projectImg: animal,
+    projectImg: loop,
     projectNum: 9,
     gitHub: "https://github.com/Joe-77/loopstudios",
     live: "https://joe-77.github.io/loopstudios/#",
