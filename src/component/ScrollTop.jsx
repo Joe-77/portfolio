@@ -3,8 +3,6 @@ import siri from "../assets/Siri.png";
 
 const ScrollTop = () => {
   window.onscroll = () => {
-    console.log(window.scrollY);
-
     if (window.scrollY >= 240) {
       document.getElementById("showScroll").classList.add("opacity-100");
       document.getElementById("showScroll").classList.remove("opacity-0");
@@ -12,7 +10,6 @@ const ScrollTop = () => {
       document.getElementById("showScroll").classList.remove("opacity-100");
       document.getElementById("showScroll").classList.add("opacity-0");
     }
-
   };
 
   const scrollToTop = () => {
