@@ -7,12 +7,22 @@ import weather from "../assets/weater.png";
 import apple from '../assets/apple.png'
 import animal from '../assets/animal.png'
 import loop from "../assets/loop.png"
+import lms from "../assets/lms.png"
 
 export const project = [
   {
+    projectName: "LMS",
+    projectImg: lms,
+    projectNum: 1,
+    gitHub: "https://github.com/Joe-77/lms",
+    live: "https://lms-two-ashy.vercel.app/home",
+    about:
+      "E-commerce app that has Log In and Log Out Authentication with Google.it has some products that you can see before adding them to your shopping cart,it has a payment page that you can use to complete your purchase",
+  },
+  {
     projectName: "e-commerce",
     projectImg: e_commerce,
-    projectNum: 1,
+    projectNum: 2,
     gitHub: "https://github.com/Joe-77/react-e-commerce",
     live: "https://react-e-commerce-teal.vercel.app/shop",
     about:
@@ -21,7 +31,7 @@ export const project = [
   {
     projectName: "netflix",
     projectImg: netflix,
-    projectNum: 2,
+    projectNum: 3,
     gitHub: "https://github.com/Joe-77/Netflix",
     live: "https://netflix-sigma-two.vercel.app/login",
     about:
@@ -30,49 +40,49 @@ export const project = [
   {
     projectName: "todo-list",
     projectImg: todoList,
-    projectNum: 3,
+    projectNum: 4,
     gitHub: "https://github.com/Joe-77/Todo-List",
     live: "https://todo-list-one-navy-25.vercel.app/",
   },
   {
     projectName: "book finder app",
     projectImg: book,
-    projectNum: 4,
+    projectNum: 5,
     gitHub: "https://github.com/Joe-77/books-finder-apps",
     live: "https://books-finder-apps.vercel.app/",
   },
   {
     projectName: "weather api",
     projectImg: weather,
-    projectNum: 5,
+    projectNum: 6,
     gitHub: "https://github.com/Joe-77/weather-api",
     live: "https://joe-77.github.io/weather-api/",
   },
   {
     projectName: "link-sharing-app",
     projectImg: linkApp,
-    projectNum: 6,
+    projectNum: 7,
     gitHub: "https://github.com/Joe-77/link-share",
     live: "https://joe-77.github.io/link-share/",
   },
   {
     projectName: "apple clone",
     projectImg: apple,
-    projectNum: 7,
+    projectNum: 8,
     gitHub: "https://github.com/Joe-77/Apple",
     live: "https://joe-77.github.io/Apple/",
   },
   {
     projectName: "pet shop",
     projectImg: animal,
-    projectNum: 8,
+    projectNum: 9,
     gitHub: "https://github.com/Joe-77/Animal",
     live: "https://joe-77.github.io/Animal/",
   },
   {
     projectName: "loopstudios",
     projectImg: loop,
-    projectNum: 9,
+    projectNum: 10,
     gitHub: "https://github.com/Joe-77/loopstudios",
     live: "https://joe-77.github.io/loopstudios/#",
   },
