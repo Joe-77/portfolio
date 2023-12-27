@@ -8,6 +8,7 @@ import apple from '../assets/apple.png'
 import animal from '../assets/animal.png'
 import loop from "../assets/loop.png"
 import lms from "../assets/lms.png"
+import headphone from '../assets/h.png'
 
 export const project = [
   {
@@ -52,37 +53,44 @@ export const project = [
     live: "https://books-finder-apps.vercel.app/",
   },
   {
+    projectName: "Audiophile e-commerce",
+    projectImg: headphone,
+    projectNum: 6,
+    gitHub: "https://github.com/Joe-77/e-commerce",
+    live: "https://joe-77.github.io/e-commerce/",
+  },
+  {
     projectName: "weather api",
     projectImg: weather,
-    projectNum: 6,
+    projectNum: 7,
     gitHub: "https://github.com/Joe-77/weather-api",
     live: "https://joe-77.github.io/weather-api/",
   },
   {
     projectName: "link-sharing-app",
     projectImg: linkApp,
-    projectNum: 7,
+    projectNum: 8,
     gitHub: "https://github.com/Joe-77/link-share",
     live: "https://joe-77.github.io/link-share/",
   },
   {
     projectName: "apple clone",
     projectImg: apple,
-    projectNum: 8,
+    projectNum: 9,
     gitHub: "https://github.com/Joe-77/Apple",
     live: "https://joe-77.github.io/Apple/",
   },
   {
     projectName: "pet shop",
     projectImg: animal,
-    projectNum: 9,
+    projectNum: 10,
     gitHub: "https://github.com/Joe-77/Animal",
     live: "https://joe-77.github.io/Animal/",
   },
   {
     projectName: "loopstudios",
     projectImg: loop,
-    projectNum: 10,
+    projectNum: 11,
     gitHub: "https://github.com/Joe-77/loopstudios",
     live: "https://joe-77.github.io/loopstudios/#",
   },
