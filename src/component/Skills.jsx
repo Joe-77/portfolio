@@ -140,7 +140,7 @@ const Skills = () => {
               <img className="w-12 h-12" src={typeScript} alt="" />
               <div className=" absolute w-full h-full rounded-full top-0 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-500 cursor-pointer">
                 <div className="overlay w-full h-full rounded-full bg-white opacity-50"></div>
-                <h1 className=" absolute font-bold">85%</h1>
+                <h1 className=" absolute font-bold">75%</h1>
               </div>
             </div>
           </div>
