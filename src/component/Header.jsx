@@ -7,7 +7,7 @@ import {
   FaFacebookF,
   FaGithub,
 } from "react-icons/fa";
-import resume from "../resume/Resume-Yousef-Abdallah.pdf";
+import resume from "../resume/Yousef-Abdallah.pdf";
 const Header = () => {
   return (
     <header className="fixed w-full top-7 text-white z-[9999]">

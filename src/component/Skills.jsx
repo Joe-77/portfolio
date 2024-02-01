@@ -9,12 +9,12 @@ import tailwind from "../assets/ts.png";
 import git from "../assets/git.png";
 import vsCode from "../assets/vs.png";
 import firebase from "../assets/firebase.png";
-import typeScript from "../assets/typescript.png"
+import typeScript from "../assets/typescript.png";
+import next from "../assets/Next.js.png";
 import npm from "../assets/npm.png";
 import { motion } from "framer-motion";
 
 const Skills = () => {
-
   return (
     <section
       id="skills"
@@ -141,6 +141,14 @@ const Skills = () => {
               <div className=" absolute w-full h-full rounded-full top-0 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-500 cursor-pointer">
                 <div className="overlay w-full h-full rounded-full bg-white opacity-50"></div>
                 <h1 className=" absolute font-bold">75%</h1>
+              </div>
+            </div>
+
+            <div className="relative w-20 h-20 rounded-full border-2 border-[#333] flex items-center justify-center group">
+              <img className="w-12 h-12" src={next} alt="" />
+              <div className=" absolute w-full h-full rounded-full top-0 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-500 cursor-pointer">
+                <div className="overlay w-full h-full rounded-full bg-white opacity-50"></div>
+                <h1 className=" absolute font-bold">80%</h1>
               </div>
             </div>
           </div>
