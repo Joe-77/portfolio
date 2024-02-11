@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full h-screen bg-main flex justify-center items-center py-16 sm:py-28 overflow-hidden"
+      className="w-full md:h-screen bg-main flex justify-center items-center py-16 sm:py-28 overflow-hidden"
     >
       <div>
         <div className="mb-28">

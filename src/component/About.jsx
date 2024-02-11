@@ -2,12 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const About = () => {
-
-
   return (
     <section
       id="about"
-      className="w-full h-screen bg-main flex justify-center py-16 sm:py-28"
+      className="w-full md:h-screen bg-main flex justify-center py-16 sm:py-28"
     >
       <div className="mx-4">
         <h1 className="text-center text-white opacity-25 mb-10 sm:mb-28  uppercase tracking-[12px]">
@@ -22,8 +20,8 @@ const About = () => {
 
           <motion.p
             className="text-white mt-4 text-sm leading-6 tracking-wide text-justify"
-            initial={{ x: "-50px" , opacity : 0}}
-            whileInView={{x : 0 , opacity : 1}}
+            initial={{ x: "-50px", opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1 }}
           >
             I'm Yousef.<span className="text-orange-500 text-xl">☻</span> A
